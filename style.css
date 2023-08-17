@@ -20,9 +20,13 @@ nav{
     padding: 0 24px; 
     border-bottom: 1px solid var(--very-light-pink);
 }
+.navbar-left a{
+    display: flex;
+    align-items: center;
+}
 .logo{
-    width: 60px;
     margin-right: 32px;
+    height: 40px;
 }
 .navbar-left{
     display: flex;
@@ -48,6 +52,19 @@ nav{
 .navbar-left ul li a:hover, .navbar-right ul li a:hover{
     border: 1px solid var(--hospital-green);
     color: var(--hospital-green);
+}
+.navbar-center{
+    display: flex;
+    align-items: center;
+}
+.navbar-center input{
+    border-radius: 12px;
+    border: 2px solid var(--very-light-pink);
+    padding: 12px;
+    font-size: var(--md);
+}
+.navbar-center input:focus{
+    outline:none
 }
 .navbar-email{
     color:var(--very-light-pink);
