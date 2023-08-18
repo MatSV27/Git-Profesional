@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
 body{
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 :root{
     --white: #FFFFFF;
@@ -96,7 +96,7 @@ nav{
     justify-content: space-around;
 }
 .pokemon-info{
-    border: 2px solid gold;
+    border: 2px solid blue;
     font-size: 20px;
     padding: 2px;
 }
@@ -110,7 +110,7 @@ nav{
     margin: 8px;
 }
 .pokemon-container-img{
-    border: 2px solid var(--very-light-pink);
+    border: 2px solid greenyellow;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
